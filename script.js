@@ -66,19 +66,26 @@
 //   isClose = false;
 // console.log(isChecked || !isClose);
 
-const numberOfFilms = +prompt("How many films did you watch?", "");
+// const numberOfFilms = +prompt("How many films did you watch?", "");
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  geners: [],
-  privat: false,
-};
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   geners: [],
+//   privat: false,
+// };
 
-const a = prompt("One of the last films: ", ""),
-  b = prompt("How would you rate it?", ""),
-  c = prompt("One of the last films: ", ""),
-  d = prompt("How would you rate it?", "");
+// const a = prompt("One of the last films: ", ""),
+//   b = prompt("How would you rate it?", ""),
+//   c = prompt("One of the last films: ", ""),
+//   d = prompt("How would you rate it?", "");
 
-personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
+
+if (4 == 4) {
+  console.log("ok!");
+}
