@@ -86,6 +86,17 @@
 
 // console.log(personalMovieDB);
 
-if (4 == 4) {
+if (4 == 9) {
+  console.log("ok!");
+} else {
+  console.log("error");
+}
+
+const num = 50;
+if (num < 49) {
+  console.log("error");
+} else if (num > 100) {
+  console.log("a lot");
+} else {
   console.log("ok!");
 }
