@@ -101,46 +101,67 @@
 // }
 
 // num === 50 ? console.log("ok!") : console.log("error");
-const num = 50;
-switch (num) {
-  case 49:
-    console.log("false");
-    break;
+// const num = 50;
+// switch (num) {
+//   case 49:
+//     console.log("false");
+//     break;
 
-  case 100:
-    console.log("false");
-    break;
+//   case 100:
+//     console.log("false");
+//     break;
 
-  case 50:
-    console.log("true");
-    break;
+//   case 50:
+//     console.log("true");
+//     break;
 
-  default:
-    console.log("not today");
-    break;
-}
+//   default:
+//     console.log("not today");
+//     break;
+// }
 
-const hamburger = 0;
-const fries = null;
-const cola = 0;
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
 
-if (hamburger || cola || fries) {
-  console.log("We are happy");
-} else {
-  console.log("We are leeving");
-}
+// if ((hamburger === 3 && cola === 2) || (nuggets && fries === 3)) {
+//   console.log("We are happy");
+// } else {
+//   console.log("We are leeving");
+// }
 
-console.log(hamburger || cola || fries);
+// console.log((hamburger === 3 && cola === 2) || (fries === 3 && nuggets));
 
-let johnReport,
-  alexReport,
-  samReport,
-  mariaReport = "done";
+// let johnReport,
+//   alexReport,
+//   samReport,
+//   mariaReport = "done";
 
-console.log(johnReport || alexReport || samReport || mariaReport);
+// console.log(johnReport || alexReport || samReport || mariaReport);
 
 // console.log(hamburger == 3 && cola && fries);
 // console.log(1 && 0);
 // console.log(1 && 5);
 // console.log(null && 5);
 // console.log("gsgs" && 0);
+
+// while (num <= 55) {
+//   console.log(num);
+//   num++;
+// }
+
+// do {
+//   console.log(num);
+//   num++;
+// } while (num < 55);
+
+let num = 50;
+
+for (let i = 1; i < 10; i++) {
+  if (i === 6) {
+    // break;
+    continue;
+  }
+  console.log(i);
+}
