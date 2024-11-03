@@ -120,8 +120,8 @@ switch (num) {
     break;
 }
 
-const hamburger = 3;
-const fries = 0;
+const hamburger = 0;
+const fries = null;
 const cola = 0;
 
 if (hamburger || cola || fries) {
@@ -129,6 +129,15 @@ if (hamburger || cola || fries) {
 } else {
   console.log("We are leeving");
 }
+
+console.log(hamburger || cola || fries);
+
+let johnReport,
+  alexReport,
+  samReport,
+  mariaReport = "done";
+
+console.log(johnReport || alexReport || samReport || mariaReport);
 
 // console.log(hamburger == 3 && cola && fries);
 // console.log(1 && 0);
