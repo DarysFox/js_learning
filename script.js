@@ -120,13 +120,18 @@ switch (num) {
     break;
 }
 
-const hamburger = 2;
-const fries = 1;
+const hamburger = 3;
+const fries = 0;
+const cola = 0;
 
-if (hamburger == 3 && fries) {
-  console.log("We are full");
+if (hamburger || cola || fries) {
+  console.log("We are happy");
 } else {
-  console.log("Gone");
+  console.log("We are leeving");
 }
 
-console.log(hamburger && fries);
+// console.log(hamburger == 3 && cola && fries);
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log("gsgs" && 0);
