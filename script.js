@@ -119,3 +119,14 @@ switch (num) {
     console.log("not today");
     break;
 }
+
+const hamburger = 2;
+const fries = 1;
+
+if (hamburger == 3 && fries) {
+  console.log("We are full");
+} else {
+  console.log("Gone");
+}
+
+console.log(hamburger && fries);
