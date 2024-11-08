@@ -178,7 +178,7 @@
 
 // console.log(result);
 
-first: for (let i = 1; i < 3; i++) {
+first: for (let i = 0; i < 3; i++) {
   console.log(`first level:  ${i}`);
   for (let j = 0; j < 3; j++) {
     console.log(`second level:  ${j}`);
